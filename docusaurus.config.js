@@ -102,7 +102,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/baby230211"
+                href: "https://github.com/baby230211",
               },
             ],
           },
@@ -110,6 +110,12 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} SeanHsieh. Built with Docusaurus.`,
       },
       prism: {
+        magicComments: [
+          {
+            className: "code-block-error-line",
+            line: "This will error",
+          },
+        ],
         darkTheme: darkCodeTheme,
         theme: lightCodeTheme,
       },
