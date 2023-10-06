@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# useConfirm Title v2
+# useConfirm Title
 
 
 ## custom hooks on using dialog/modal with custom hooks
